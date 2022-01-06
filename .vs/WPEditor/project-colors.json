@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e55a5252-5bcd-4c52-87a7-9d119767c65e": {
+      "ProjectGuid": "e55a5252-5bcd-4c52-87a7-9d119767c65e",
+      "DisplayName": "WPEditor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

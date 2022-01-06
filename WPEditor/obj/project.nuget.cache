@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+O4kNFHcJXVJxyjRizmlhR3P3WbAaWQdI0MxnAPAaW3koDESQh58TA3+yI812bq9KZisEcT+s77ZhV+DmPZHJg==",
+  "success": true,
+  "projectFilePath": "C:\\_Development\\_github\\WPEditor\\WPEditor\\WPEditor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eji\\.nuget\\packages\\devexpressmvvm\\21.1.5\\devexpressmvvm.21.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
