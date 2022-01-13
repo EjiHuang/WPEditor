@@ -2,17 +2,14 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="DevExpressMvvm" Version="21.1.5" />
+    <PackageReference Include="Mapsui.Wpf" Version="3.0.2" />
   </ItemGroup>
 
 </Project>

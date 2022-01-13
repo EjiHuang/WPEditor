@@ -4,10 +4,52 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:WPEditor"
+    xmlns:mapsui="clr-namespace:Mapsui.UI.Wpf;assembly=Mapsui.UI.Wpf"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:WPEditor.ViewModel"
     Title="WPEditor"
     Width="800"
     Height="450"
+    d:DataContext="{d:DesignInstance Type=vm:MainViewModel}"
     mc:Ignorable="d">
-    <Grid />
+    <Window.DataContext>
+        <vm:MainViewModel x:Name="MainVM" />
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Menu Padding="0,2">
+            <MenuItem Header="File">
+                <MenuItem Header="Save as..." />
+                <MenuItem Header="Exit" />
+            </MenuItem>
+            <MenuItem Header="Other">
+                <MenuItem Header="About me" />
+            </MenuItem>
+        </Menu>
+        <!--  Content area  -->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <mapsui:MapControl
+                x:Name="MapControl"
+                MouseMove="MapControl_MouseMove"
+                RenderMode="Wpf" />
+            <StatusBar Grid.Row="1">
+                <StatusBarItem>
+                    <TextBlock Text="Ready." />
+                </StatusBarItem>
+                <StatusBarItem HorizontalAlignment="Right">
+                    <ProgressBar
+                        Width="150"
+                        Height="14"
+                        IsIndeterminate="True" />
+                </StatusBarItem>
+            </StatusBar>
+        </Grid>
+    </Grid>
 </Window>

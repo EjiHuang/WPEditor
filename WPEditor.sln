@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPEditor", "WPEditor\WPEditor.csproj", "{E55A5252-5BCD-4C52-87A7-9D119767C65E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPEditor", "WPEditor\WPEditor.csproj", "{9A0F785A-5649-4A78-8CFE-44126C01520D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E55A5252-5BCD-4C52-87A7-9D119767C65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E55A5252-5BCD-4C52-87A7-9D119767C65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E55A5252-5BCD-4C52-87A7-9D119767C65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E55A5252-5BCD-4C52-87A7-9D119767C65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0F785A-5649-4A78-8CFE-44126C01520D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0F785A-5649-4A78-8CFE-44126C01520D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0F785A-5649-4A78-8CFE-44126C01520D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0F785A-5649-4A78-8CFE-44126C01520D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
