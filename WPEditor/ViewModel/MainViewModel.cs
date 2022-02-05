@@ -13,6 +13,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Mapsui.UI;
+using Mapsui.Geometries;
+using WPEditor.Ext;
 
 namespace WPEditor.ViewModel
 {
@@ -30,23 +32,10 @@ namespace WPEditor.ViewModel
         {
             CurrentMap = mapControl;
             CurrentMap.Map = new Map();
+            CurrentMap.Map.Layers.Add(MapHelper.TianDiTuAerialTileLayer, MapHelper.TianDiTuVectorMarks_zh_CN);
 
-            HttpTileSource source = new(
-                tileSchema: new GlobalSphericalMercator(0, 18),
-                urlFormatter: "http://t{s}.tianditu.gov.cn/img_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=img&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles&TILEMATRIX={z}&TILEROW={x}&TILECOL={y}&tk={k}",
-                serverNodes: new string[8] { "0", "1", "2", "3", "4", "5", "6", "7" },
-                apiKey: "8326d0888fac6bc26279108edd086c38",
-                name: "TianDiTu",
-                persistentCache: null,
-                tileFetcher: null,
-                attribution: TianDiTuAttribution,
-                userAgent: null);
-            TileLayer TianDiTuTileLayer = new(source, dataFetchStrategy: new DataFetchStrategy());
-
-            CurrentMap.Map.Layers.Add(TianDiTuTileLayer);
-            CurrentMap.Map.Home = n => n.NavigateTo(new MPoint(1059114.80157058, 5179580.75916194), CurrentMap.Map.Resolutions[14]);
+            CurrentMap.Map.Home = n => n.NavigateTo(new Point(1059114.80157058, 5179580.75916194), CurrentMap.Map.Resolutions[14]);
             CurrentMap.Map.BackColor = Color.FromString("#000613");
-
         }
     }
 }

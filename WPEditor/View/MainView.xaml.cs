@@ -3,6 +3,7 @@ using Mapsui.Logging;
 using Mapsui.Utilities;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,7 +47,12 @@ namespace WPEditor.View
         /// <exception cref="NotImplementedException"></exception>
         private void MapLogMethod(LogLevel arg1, string arg2, Exception arg3)
         {
+            Debug.WriteLine($"{arg1.ToString()}: {arg2}.");
 
+            if (arg3 != null)
+            {
+                Debug.WriteLine($"Exception: {arg3.ToString()}");
+            }
         }
     }
 }

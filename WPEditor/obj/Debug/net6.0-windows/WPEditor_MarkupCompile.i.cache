@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\_Development\_github\WPEditor\WPEditor\obj\Debug\net6.0-windows\
+D:\_development\GitHub Project\WPEditor\WPEditor\obj\Debug\net6.0-windows\
 WPEditor
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\_Development\_github\WPEditor\WPEditor\App.xaml
+D:\_development\GitHub Project\WPEditor\WPEditor\App.xaml
 1348297793
 
-6269195673
-215500801745
+7-370675617
+215-1454134951
 View\MainView.xaml;
 
-True
+False
 

@@ -1883,24 +1883,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eji\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\eji-pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_Development\\_github\\WPEditor\\WPEditor\\WPEditor.csproj",
+      "projectUniqueName": "D:\\_development\\GitHub Project\\WPEditor\\WPEditor\\WPEditor.csproj",
       "projectName": "WPEditor",
-      "projectPath": "C:\\_Development\\_github\\WPEditor\\WPEditor\\WPEditor.csproj",
-      "packagesPath": "C:\\Users\\Eji\\.nuget\\packages\\",
-      "outputPath": "C:\\_Development\\_github\\WPEditor\\WPEditor\\obj\\",
+      "projectPath": "D:\\_development\\GitHub Project\\WPEditor\\WPEditor\\WPEditor.csproj",
+      "packagesPath": "C:\\Users\\eji-pc\\.nuget\\packages\\",
+      "outputPath": "D:\\_development\\GitHub Project\\WPEditor\\WPEditor\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Eji\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\eji-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
